@@ -327,6 +327,10 @@ body {
   height: 57px;
   padding: 20px;
   border-radius: 10px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
 }
 .support_input .submit {
   width: 120px;
@@ -339,6 +343,8 @@ body {
   letter-spacing: 0%;
   text-align: center;
   border-radius: 10px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
 }
 
 /* footer section  */
