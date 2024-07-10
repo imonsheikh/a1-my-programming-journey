@@ -180,7 +180,8 @@ body {
   border-radius: 10px;
   margin-top: 88px;
 }
-.inspiration_content h1 {
+.inspiration_content h1,
+.current_h1 {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 32px;
@@ -190,7 +191,8 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
-.inspiration_content p {
+.inspiration_content p,
+.current_p {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
@@ -200,7 +202,6 @@ body {
   text-align: center;
   opacity: 0.7;
   margin-bottom: 48px;
-
 }
 
 .inspiration_link {
@@ -208,7 +209,7 @@ body {
   height: 614px;
   border: 2px solid gainsboro;
   border-radius: 10px;
-  padding: 32px; 
+  padding: 32px;
 }
 .inspiration_link iframe {
   margin: 0 auto;
@@ -218,4 +219,61 @@ body {
   width: 1076px;
   height: 550px;
   border-radius: 10px;
+}
+
+/* my current section */
+.my_current_target {
+  width: 1140px;
+  height: 463px;
+  border: 2px solid rebeccapurple;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.my_current_target .cards {
+  width: 1140px;
+  height: 300px;
+  /* width: 33%; */
+  display: flex;
+  justify-content: space-between;
+}
+.my_current_target .cards .card {
+  width: 364px;
+  height: 300px;
+  display: flex;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+}
+.cards .card p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.cards .card .learn_more {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+/* support section  */
+.support_section {
+  width: 1140px;
+  height: 314px;
+  border: 2px solid rgb(166, 36, 36);
+  margin: 0 auto;
+  margin-top: 41px;
 }
