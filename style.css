@@ -8,6 +8,41 @@
 body {
   font-family: "Azeret Mono", monospace;
 }
+
+/* nav section  */
+.nav_section {
+  width: 1140px;
+  height: 130px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_section h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.download_btn {
+  width: 228px;
+  height: 58px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  background-color: wheat;
+}
+
+/* banner  */
 .banner {
   background-image: url("./assets/Hero-bg.png");
   width: 1440px;
@@ -280,6 +315,75 @@ body {
   letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
+}
+
+/* My next section  */
+.my_next_target {
+  width: 1140px;
+  height: 871px;
+  margin: 0 auto;
+}
+.landscape_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.landscape_card {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background-color: goldenrod;
+  background-color: #D6EFD8;
+
+}
+.landscape_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.landscape_content h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0%;
+}
+
+.landscape_img {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: center;
+}
+.react_modify{
+  width: 160px;
+
+}
+.landscape_content .landscape_des {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+.landscape_content .next_learn_more {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.landscape_modify_2{
+  background-color: #DEF9C4;
+}
+.landscape_modify_3{
+  background-color: #A7E6FF;
 }
 
 /* support section  */
